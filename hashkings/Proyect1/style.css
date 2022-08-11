@@ -1,0 +1,44 @@
+body{
+    margin:0%
+}
+nav{
+    display:flex;
+    background-color: rgb(153, 24, 24);
+    justify-content:space-evenly;
+    padding:1.5%;
+    margin-bottom: 3%;    
+}
+a{
+    color:tomato;
+    font-weight: 750;
+}
+
+table{
+    margin:auto;
+    border-collapse: collapse;
+    border-top-style: solid;
+    border-top-color: brown;
+    border-bottom-style: solid;
+    border-bottom-color: brown;
+    
+    /* border-width: 1%;
+    border-style: solid;
+    border-color: black; */
+}
+td,th{
+    text-align: center;
+    padding: 3%;    
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: brown;
+
+}
+
+table {width: 80%;}
+td
+{
+ max-width: 0;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
